@@ -1,30 +1,26 @@
 # VidSense: Lock in with YouTube!
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f6607a6e-f1b8-45b9-87f9-96153be44013" width="400" alt="eye">
+  <img src="https://github.com/user-attachments/assets/f6607a6e-f1b8-45b9-87f9-96153be44013" width="400" alt="VidSense Logo">
 </p>
 
 <p align="center">
-  <a href="https://github.com/apoorvsxna/VidSense-MindsDB" target="blank">
+  <a href="https://github.com/apoorvsxna/VidSense-MindsDB" target="_blank">
     <img src="https://img.shields.io/github/watchers/apoorvsxna/VidSense-MindsDB?style=for-the-badge&logo=appveyor" alt="Watchers"/>
   </a>
-  <a href="https://github.com/apoorvsxna/VidSense-MindsDB/fork" target="blank">
+  <a href="https://github.com/apoorvsxna/VidSense-MindsDB/fork" target="_blank">
     <img src="https://img.shields.io/github/forks/apoorvsxna/VidSense-MindsDB?style=for-the-badge&logo=appveyor" alt="Forks"/>
   </a>
-  <a href="https://github.com/apoorvsxna/VidSense-MindsDB/stargazers" target="blank">
-    <img src="https://img.shields.io/github/stars/apoorvsxna/VidSense-MindsDB?style=for-the-badge&logo=appveyor" alt="Star"/>
+  <a href="https://github.com/apoorvsxna/VidSense-MindsDB/stargazers" target="_blank">
+    <img src="https://img.shields.io/github/stars/apoorvsxna/VidSense-MindsDB?style=for-the-badge&logo=appveyor" alt="Stars"/>
   </a>
-</p>
-<p align="center">
-  <a href="https://github.com/apoorvsxna/VidSense-MindsDB/issues" target="blank">
+  <a href="https://github.com/apoorvsxna/VidSense-MindsDB/issues" target="_blank">
     <img src="https://img.shields.io/github/issues/apoorvsxna/VidSense-MindsDB?style=for-the-badge&logo=appveyor" alt="Issues"/>
   </a>
-  <a href="https://github.com/apoorvsxna/VidSense-MindsDB/pulls" target="blank">
-    <img src="https://img.shields.io/github/issues-pr/apoorvsxna/VidSense-MindsDB?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
+  <a href="https://github.com/apoorvsxna/VidSense-MindsDB/pulls" target="_blank">
+    <img src="https://img.shields.io/github/issues-pr/apoorvsxna/VidSense-MindsDB?style=for-the-badge&logo=appveyor" alt="Pull Requests"/>
   </a>
-</p>
-<p align="center">
-  <a href="https://github.com/apoorvsxna/VidSense-MindsDBblob/master/LICENSE" target="blank">
+  <a href="https://github.com/apoorvsxna/VidSense-MindsDB/blob/master/LICENSE" target="_blank">
     <img src="https://img.shields.io/github/license/apoorvsxna/VidSense-MindsDB?style=for-the-badge&logo=appveyor" alt="License" />
   </a>
 </p>
@@ -34,212 +30,123 @@
 - [Overview](#overview)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
 - [Installation](#installation)
-  - [Frontend Setup](#frontend-setup)
-  - [Backend Setup](#backend-setup)
 - [Usage](#usage)
 - [Demo](#demo)
-- [Technical Demo](#technical-demo)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
-> _And you run and you run, to catch up with the sun but it's sinking,_
-> 
-> _Racing around to come up behind you again._
->
-> _Sun is the same, in a relative way, but you're older_
-> 
-> _Shorter of breath and one day closer to death_
-> 
-> _-Pink Floyd_
-
-**VidSense** is a powerful extension for instant answers and concise summaries based on the YouTube video you're watching, all within your current tab. Precise AI-powered answers a click away!
+VidSense is a browser extension that provides instant answers and concise summaries based on the YouTube video you're watching. It offers AI-powered responses directly within your current tab, enhancing your video-watching experience.
 
 ## Key Features
 
 ### Question-Answering
-The Vidsense Q&A feature leverages YouTube video captions to provide accurate and contextually relevant answers to user queries. This innovative functionality enhances the browsing experience by allowing users to tap into the vast repository of knowledge embedded in YouTube videos, utilizing the power of captions to quickly find precise information.By utilizing YouTube video captions for precise answers, this feature significantly decreases the time users spend searching for information, providing quick and accurate responses directly from video content.
+VidSense uses YouTube video captions to provide accurate and contextually relevant answers to user queries. This feature allows users to quickly find precise information without watching the entire video.
 
 ### Summarization
-The Summarization feature provides concise summaries of YouTube videos, allowing users to quickly grasp the main points and essential information without watching the entire content. By integrating this Summarization feature, users can efficiently access the main ideas and key points from YouTube videos, drastically reducing the time required to consume and comprehend video content.
+Get concise summaries of YouTube videos to grasp the main points and essential information quickly. This feature helps users efficiently access key ideas without watching the full content.
 
 ### Quiz Generation
-The Quiz Creation feature utilizes the Q&A capabilities to generate interactive quizzes from YouTube video content. This feature extracts key information from video captions and formulates questions, offering users a dynamic way to test their understanding and retention of the material. You can also use other similar feauture via other gemini prompts in the extension.
+Create interactive quizzes from YouTube video content. This feature extracts key information from video captions and formulates questions, offering users a way to test their understanding of the material.
 
 ## Technologies Used
 
-- **Frontend**: HTML/CSS
-- **Backend**: Flask
-- **AI Integration**: Google Gemini
-- **Containerization**: Docker
-- **API Integration**: MindsDB
-
-## Getting Started
-
-To get started with CarePlus, you'll need to set up both the frontend and backend components of the application.
+- Frontend: HTML/CSS
+- Backend: Flask
+- AI Integration: Google Gemini
+- Containerization: Docker
+- API Integration: MindsDB
 
 ## Installation
 
-### Clone the Repository
+### Download the Latest Release
 
-```bash
-git clone https://github.com/apoorvsxna/VidSense-MindsDB.git
-```
-
-### Frontend Setup
-
-1. Navigate to the frontend directory:
-
-   ```bash
-   cd CarePlus/frontend
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   yarn install
-   ```
-
-3. Start the development server:
-
-   ```bash
-   yarn run dev
-   ```
+1. Download the latest release [here](https://github.com/apoorvsxna/VidSense-MindsDB/releases).
+2. Extract the files to your preferred location.
 
 ### Backend Setup
 
-1. Ensure you have Docker installed on your system and RUNNING. Windows users may install Docker Desktop.
+1. Install [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/).
+2. Set up MindsDB on Docker following this [guide](https://docs.mindsdb.com/setup/self-hosted/docker-desktop).
+3. Open the SQL editor in the MindsDB extension and run the following queries:
 
-2. Navigate to the backend directory:
+   ```sql
+   CREATE ML_ENGINE google_gemini_engine
+   FROM google_gemini
+   USING
+         google_gemini_api_key = 'your-api-key';
 
-   ```bash
-   cd CarePlus/backend
-   ```
+   CREATE MODEL google_gemini_model
+   PREDICT answer
+   USING
+         engine = 'google_gemini_engine',
+         column = 'question',
+         model = 'gemini-pro';
 
-3. Setting up a virtual environment (recommended):
+4. Download and install [Python](https://www.python.org/downloads/). Skip this step if it is already installed on your computer.
 
-   - Install virtualenv:
+5. Run the `install-dependencies.bat` file in the extracted folder.
 
-     ```bash
-     pip install virtualenv
-     ```
+### Extension Setup
 
-   - Create a virtual environment:
-
-     ```bash
-     virtualenv venv
-     ```
-
-   - Activate the virtual environment:
-     - On Windows:
-
-       ```bash
-       venv\Scripts\activate
-       ```
-
-     - On macOS and Linux:
-
-       ```bash
-       source venv/bin/activate
-       ```
-
-4. Initialize Policies folder as a Git repository (For Opal configuration):
-
-   ```bash
-   cd policies
-   git init
-   git add .
-   git commit -m "Initial commit"
-   cd ..
-   ```
-
-5. Create a `.env` file in the backend directory with the following content:
-
-   ```
-   DATABASE_URL=sqlite:///./test.db
-   SECRET_KEY=thiswillalsowork
-   OPAL_SERVER_URL=http://opal_server:7002
-   OPA_SERVER_URL=http://opa:8181
-   API_KEY=YOUR_GEMINI_API_KEY
-   ```
-
-   Replace `YOUR_GEMINI_API_KEY` with your actual Gemini API key.
-
-6. Build and start the Docker containers from backend directory (this may take a few minutes):
-
-   ```bash
-   docker compose up --build
-   ```
-
-   For subsequent runs, you can simply use:
-
-   ```bash
-   docker compose up
-   ```
-
-   To stop the containers:
-
-   ```bash
-   docker compose down
-   ```
+1. Enable Extension developer mode in your browser.
+2. Click on "Load Unpacked" and select the extension folder from the extracted files.
+3. The VidSense extension will now be available in your browser's extensions menu.
 
 ## Usage
 
-1. Ensure the extension updated to the latest version.
-2. Choose a YouTube video.
-3. Click on the extension icon in the top right corner to open summary.
-4. For summary:
-   - click on the summary button.
-   - Wait for summary generation.
-   - Have read at a consise summary of the video.<br>
-For Question-Answering:
-   - Enter your prompt in the text box.
-   - Click on the Answer button.
-   - Get you queries done on the go.
-6. You may use these features howerever you want. The prompts can be tampered for your purpose.
+1. Start the server by running `start.bat`.
+2. Navigate to a YouTube video.
+3. Click the VidSense extension icon to open the interface.
+4. Use the summary or question-answering features as needed.
+5. Stop the server using `stop.bat` when finished.
 
 
 ## Demo
 
-[Click here to watch the demo video](https://github.com/apoorvsxna/VidSense-MindsDBassets/89499267/d24c8ff7-2614-414b-b85f-5ef1a7979360)
-
-## Technical Demo
-
-[Click here to watch the technical demo video](https://github.com/apoorvsxna/VidSense-MindsDBassets/89499267/c0823003-73ff-4b60-babc-b5daa3b38882)
+[![Demo Video](https://img.youtube.com/vi/ajPk465WY4E/0.jpg)](https://www.youtube.com/watch?v=ajPk465WY4E)
 
 ## Screenshots
 
-Landing Page:
-Q&A Interaction:
-Quiz Creation:
-Summary View:
+### Question-Answering:
+
+![Screenshot (32)](https://github.com/user-attachments/assets/a3d9b41f-21f7-4300-b39b-fae9cc7bf0aa)
+
+
+### Summarization:
+
+![summary](https://github.com/user-attachments/assets/036f5447-4e3a-4b83-8147-c1c8a3395b12)
+
+
+### Additional prompt using Question-Answering (Quiz):
+
+![quiz](https://github.com/user-attachments/assets/084883fb-f7d5-4eae-a7bf-73b1ce01725a)
+
 
 ## Contributing
 
-We welcome contributions to CarePlus! If you'd like to contribute, please follow these steps:
+If you'd like to contribute, please follow these steps:
 
 1. **Fork the repository**
 2. **Create your feature branch**:
 
    ```bash
-   git checkout -b feature/AmazingFeature
+   git checkout -b your-name/feature
    ```
 
 3. **Commit your changes**:
 
    ```bash
-   git commit -m 'Add some AmazingFeature'
+   git commit -m 'Add some feature'
    ```
 
 4. **Push to the branch**:
 
    ```bash
-   git push origin feature/AmazingFeature
+   git push origin your-name/feature
    ```
 
 5. **Open a Pull Request**
@@ -250,9 +157,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- [MindsDB] for easy api integration
-- [Google Gemini API](https://ai.google.com/gemini) for AI-powered symptom analysis
-- [HTML/CSS]([https://reactjs.org/](https://developer.mozilla.org/en-US/)) for the frontend framework
+- [MindsDB](https://docs.mindsdb.com/what-is-mindsdb) for AI Data automation
+- [Google Gemini API](https://ai.google.com/gemini) for LLM tasks
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/) for the backend framework
 - [Docker](https://www.docker.com/) for containerization
 
