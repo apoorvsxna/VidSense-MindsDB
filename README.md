@@ -107,6 +107,7 @@ The question-answering tab also supports any other prompts such as "Generate a q
 
 
 ## Demo
+(Click to watch on YouTube)
 
 [![Demo Video](https://img.youtube.com/vi/ajPk465WY4E/0.jpg)](https://www.youtube.com/watch?v=ajPk465WY4E)
 
