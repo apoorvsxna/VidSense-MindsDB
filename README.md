@@ -50,7 +50,7 @@ VidSense uses YouTube video captions to provide accurate and contextually releva
 Get concise summaries of YouTube videos to grasp the main points and essential information quickly. This feature helps users efficiently access key ideas without watching the full content.
 
 ### Additional Prompts
-The question-answering tab also supports any other prompts such as "Generate a quiz", enhancing the utility.
+The question-answering tab also supports any other prompts such as "Generate a quiz" or "Translate to Hindi", further enhancing the utility of the extension.
 
 ## Technologies Used
 
