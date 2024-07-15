@@ -1,6 +1,10 @@
 # VidSense: Lock in with YouTube!
 
 <p align="center">
+  <img src="https://github.com/user-attachments/assets/f6607a6e-f1b8-45b9-87f9-96153be44013" width="400" alt="eye">
+</p>
+
+<p align="center">
   <a href="https://github.com/apoorvsxna/VidSense-MindsDB" target="blank">
     <img src="https://img.shields.io/github/watchers/apoorvsxna/VidSense-MindsDB?style=for-the-badge&logo=appveyor" alt="Watchers"/>
   </a>
