@@ -163,5 +163,5 @@ This project is licensed under the [MIT License](LICENSE).
 - [Google Gemini API](https://ai.google.com/gemini) for LLM tasks
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/) for the backend framework
 - [Docker](https://www.docker.com/) for containerization
-
+- [youtube-transcript-api](https://pypi.org/project/youtube-transcript-api/) for extracting YouTube captions.
 ---
