@@ -49,12 +49,12 @@ VidSense uses YouTube video captions to provide accurate and contextually releva
 ### Summarization
 Get concise summaries of YouTube videos to grasp the main points and essential information quickly. This feature helps users efficiently access key ideas without watching the full content.
 
-### Quiz Generation
-Create interactive quizzes from YouTube video content. This feature extracts key information from video captions and formulates questions, offering users a way to test their understanding of the material.
+### Additional Prompts
+The question-answering tab also supports any other prompts such as "Generate a quiz", enhancing the utility.
 
 ## Technologies Used
 
-- Frontend: HTML/CSS
+- Frontend: HTML/CSS/JavaScript
 - Backend: Flask
 - AI Integration: Google Gemini
 - Containerization: Docker
@@ -98,11 +98,12 @@ Create interactive quizzes from YouTube video content. This feature extracts key
 
 ## Usage
 
-1. Start the server by running `start.bat`.
-2. Navigate to a YouTube video.
-3. Click the VidSense extension icon to open the interface.
-4. Use the summary or question-answering features as needed.
-5. Stop the server using `stop.bat` when finished.
+1. Make sure the MindsDB Docker container is running
+2. Start the server by running `start.bat`.
+3. Navigate to a YouTube video.
+4. Click the VidSense extension icon to open the interface.
+5. Use the summary or question-answering features as needed.
+6. Stop the server using `stop.bat` when finished.
 
 
 ## Demo
